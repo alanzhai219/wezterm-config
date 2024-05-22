@@ -312,8 +312,8 @@ Most of the key bindings revolve around a <kbd>SUPER</kbd> and <kbd>SUPER_REV</k
 
 | Keys                               | Action                                           |
 | ---------------------------------- | ------------------------------------------------ |
-| <kbd>SUPER</kbd>+<kbd>\\</kbd>     | `SplitVertical` <sub>(CurrentPaneDomain)</sub>   |
-| <kbd>SUPER_REV</kbd>+<kbd>\\</kbd> | `SplitHorizontal` <sub>(CurrentPaneDomain)</sub> |
+| <kbd>SUPER</kbd>+<kbd>\-</kbd>     | `SplitVertical` <sub>(CurrentPaneDomain)</sub>   |
+| <kbd>SUPER</kbd>+<kbd>\\</kbd> | `SplitHorizontal` <sub>(CurrentPaneDomain)</sub> |
 
 ##### Panes: Zoom+Close Pane
 
@@ -326,11 +326,11 @@ Most of the key bindings revolve around a <kbd>SUPER</kbd> and <kbd>SUPER_REV</k
 
 | Keys                              | Action                  |
 | --------------------------------- | ----------------------- |
-| <kbd>SUPER_REV</kbd>+<kbd>k</kbd> | Move to Pane (Up)       |
-| <kbd>SUPER_REV</kbd>+<kbd>j</kbd> | Move to Pane (Down)     |
-| <kbd>SUPER_REV</kbd>+<kbd>h</kbd> | Move to Pane (Left)     |
-| <kbd>SUPER_REV</kbd>+<kbd>l</kbd> | Move to Pane (Right)    |
-| <kbd>SUPER_REV</kbd>+<kbd>p</kbd> | Swap with selected Pane |
+| <kbd>SUPER</kbd>+<kbd>k</kbd> | Move to Pane (Up)       |
+| <kbd>SUPER</kbd>+<kbd>j</kbd> | Move to Pane (Down)     |
+| <kbd>SUPER</kbd>+<kbd>h</kbd> | Move to Pane (Left)     |
+| <kbd>SUPER</kbd>+<kbd>l</kbd> | Move to Pane (Right)    |
+| <kbd>SUPER</kbd>+<kbd>p</kbd> | Swap with selected Pane |
 
 ##### Panes: Scroll Pane
 
