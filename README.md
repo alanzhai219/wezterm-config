@@ -55,9 +55,58 @@
 
 ---
 
+### Getting Started
+
+- ##### Requirements:
+
+  - WezTerm `>= 20240127-113634-bbcac864`
+
+  - <details>
+    <summary>JetBrainsMono Nerd Font</summary>
+
+    Install with HomeBrew (Macos)
+
+    ```sh
+    brew tap homebrew/cask-fonts
+    brew install font-jetbrains-mono-nerd-font
+    ```
+
+    Install with Scoop (Windows)
+
+    ```sh
+    scoop bucket add nerd-fonts
+    scoop install JetBrainsMono-NF
+    ```
+
+    > More Info:
+    >
+    > - <https://www.nerdfonts.com/#home>
+    > - <https://github.com/ryanoasis/nerd-fonts?#font-installation>
+
+    </details/>
+
+&nbsp;
+
+- ##### Steps:
+
+  1.  ```sh
+      # On Windows and Unix systems
+      git clone https://github.com/KevinSilvester/wezterm-config.git ~/.config/wezterm
+      ```
+  2.  And Done!!! 🎉🎉
+
+&nbsp;
+
+- ##### Things You Might Want to Change:
+
+  - [./config/domains.lua](./config/domains.lua) for custom SSH/WSL domains
+  - [./config/launch.lua](./config/launch.lua) for preferred shells and its paths
+
+---
+
 ### All Key Binbdings
 
-Most of the key bindings revolve around a <kbd>SUPER</kbd> and a <kbd>SUPER_REV</kbd>(super reversed) keys.<br>
+Most of the key bindings revolve around a <kbd>SUPER</kbd> and <kbd>SUPER_REV</kbd>(super reversed) keys.<br>
 
 - On MacOs:
   - <kbd>SUPER</kbd> ⇨ <kbd>Super</kbd>
@@ -93,6 +142,16 @@ Most of the key bindings revolve around a <kbd>SUPER</kbd> and a <kbd>SUPER_REV<
 | --------------------------------------------- | -------------------- |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>c</kbd> | Copy to Clipborad    |
 | <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>v</kbd> | Paste from Clipborad |
+
+&nbsp;
+
+#### Cursor Movements
+
+| Keys                                   | Action                                                      |
+| -------------------------------------- | ----------------------------------------------------------- |
+| <kbd>SUPER</kbd>+<kbd>LeftArrow</kbd>  | Move cursor to Line Start                                   |
+| <kbd>SUPER</kbd>+<kbd>RightArrow</kbd> | Move cursor to Line End                                     |
+| <kbd>SUPER</kbd>+<kbd>Backspace</kbd>  | Clear Line <sub>(does not work for PowerShell or cmd)</sub> |
 
 &nbsp;
 
