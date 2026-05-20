@@ -3,7 +3,7 @@ local backdrops = require('utils.backdrops')
 local colors = require('colors.custom')
 
 return {
-   max_fps = 120,
+   max_fps = 60,
    front_end = 'WebGpu',
    webgpu_power_preference = 'HighPerformance',
    webgpu_preferred_adapter = gpu_adapters:pick_best(),
@@ -37,6 +37,8 @@ return {
    switch_to_last_active_tab_when_closing_tab = true,
 
    -- window
+   initial_cols = 200,
+   initial_rows = 64,
    window_padding = {
       left = 0,
       right = 0,
